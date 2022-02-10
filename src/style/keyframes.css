@@ -1,0 +1,298 @@
+/*Design-sec-1*/
+
+.p-abs {
+  position: absolute;
+}
+
+.p-abs img {
+  width: 100%;
+  height: auto;
+  animation: 10s rotate infinite linear;
+  -webkit-animation: 10s rotate infinite linear;
+  -ms-animation: 10s rotate infinite linear;
+  -o-animation: 10s rotate infinite linear;
+  -moz-animation: 10s rotate infinite linear;
+}
+
+span.circle-gradient.p-abs {
+  right: 10vw;
+  bottom: 18vh;
+  width: 10vw;
+  height: 10vw;
+}
+
+span.design-triangle._right {
+  right: 5vw;
+  top: 30vh;
+  width: 3vh;
+  left: auto;
+  filter: none;
+  animation: 60s rotate infinite alternate;
+  -webkit-animation: 60s rotate infinite alternate;
+  -ms-animation: 60s rotate infinite alternate;
+  -o-animation: 60s rotate infinite alternate;
+  -moz-animation: 60s rotate infinite alternate;
+}
+
+span.design-star {
+  width: 2vh;
+  position: absolute;
+  left: 10vw;
+}
+
+span.design-circle.p-abs {
+  position: absolute;
+  width: 4vw;
+  left: 10vw;
+  bottom: 30vw;
+  animation: 5s circle infinite alternate;
+  -webkit-animation: 5s circle infinite alternate;
+  -ms-animation: 5s circle infinite alternate;
+  -o-animation: 5s circle infinite alternate;
+  -moz-animation: 5s circle infinite alternate;
+}
+
+span.design-triangle {
+  left: 3vw;
+  top: 20vh;
+  width: 2vw;
+  filter: brightness(0) invert(1);
+  animation: 5s triangle infinite alternate;
+  -webkit-animation: 5s triangle infinite alternate;
+  -ms-animation: 5s triangle infinite alternate;
+  -o-animation: 5s triangle infinite alternate;
+  -moz-animation: 5s triangle infinite alternate;
+}
+
+.triangle,
+.gradient,
+.star,
+.circle {
+  width: 3vw;
+  height: 3vw;
+}
+
+.circle:after,
+.triangle:after,
+.gradient:after,
+.star:after {
+  content: "";
+  background-image: url(../assets/star-colored.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 0;
+  width: 3vw;
+  height: 3vw;
+  top: 0;
+  background-position: center;
+  background-size: contain;
+}
+
+.triangle:after {
+  background-image: url(../assets/triangle.png);
+}
+
+.gradient:after {
+  background-image: url(../assets/gradient-blue-circle.png);
+}
+
+.circle:after {
+  background-image: url(../assets/circle-transparent.png);
+}
+
+.star {
+  animation: 5s rotate infinite linear;
+  -webkit-animation: 5s rotate infinite linear;
+  -ms-animation: 5s rotate infinite linear;
+  -o-animation: 5s rotate infinite linear;
+  -moz-animation: 5s rotate infinite linear;
+}
+
+.triangle {
+  animation: 5s triangle2 infinite alternate;
+  -webkit-animation: 5s triangle2 infinite alternate;
+  -ms-animation: 5s triangle2 infinite alternate;
+  -o-animation: 5s triangle2 infinite alternate;
+  -moz-animation: 5s triangle2 infinite alternate;
+}
+
+.gradient {
+  animation: 5s circle2 infinite alternate;
+  -webkit-animation: 5s circle2 infinite alternate;
+  -ms-animation: 5s circle2 infinite alternate;
+  -o-animation: 5s circle2 infinite alternate;
+  -moz-animation: 5s circle2 infinite alternate;
+}
+
+.circle {
+  animation: 5s circle infinite alternate;
+  -webkit-animation: 5s circle infinite alternate;
+  -ms-animation: 5s circle infinite alternate;
+  -o-animation: 5s circle infinite alternate;
+  -moz-animation: 5s circle infinite alternate;
+}
+
+/*Section 2*/
+
+span.star._2 {
+  position: absolute;
+  top: 4vw;
+  left: 2vw;
+  animation-duration: 3s;
+}
+
+span.triangle._2 {
+  position: absolute;
+  right: 5vw;
+  top: 0;
+  animation-duration: 4s;
+}
+
+span.gradient._2 {
+  bottom: 10vw;
+  position: absolute;
+  left: 6vw;
+  animation-duration: 6s;
+}
+
+/*Section 3*/
+
+span.star._3 {
+  position: absolute;
+  right: 5vw;
+  top: 0;
+  animation-duration: 7s;
+}
+
+span.triangle._3 {
+  position: absolute;
+  top: 4vw;
+  left: 2vw;
+  animation-duration: 2.5s;
+}
+
+span.gradient._3 {
+  bottom: 10vw;
+  position: absolute;
+  left: 10vw;
+  animation-duration: 3.8s;
+}
+
+span.circle._3 {
+  position: absolute;
+  right: 4vw;
+  bottom: 10vw;
+  animation-duration: 2.3s;
+}
+
+/*Section 4*/
+
+span.star._4 {
+  position: absolute;
+  top: 4vw;
+  left: 2vw;
+  animation-duration: 2.93s;
+}
+
+span.triangle._4 {
+  bottom: 10vw;
+  position: absolute;
+  left: 5vw;
+  animation-duration: 1.8s;
+}
+
+span.gradient._4 {
+  position: absolute;
+  right: 5vw;
+  bottom: 7vw;
+  animation-duration: 4.6s;
+}
+
+/*Section 5*/
+
+span.star._5 {
+  position: absolute;
+  top: 4vw;
+  left: 2vw;
+  animation-duration: 5s;
+}
+
+span.triangle._5 {
+  bottom: 10vw;
+  position: absolute;
+  left: 5vw;
+  animation-duration: 8s;
+}
+
+span.gradient._5 {
+  position: absolute;
+  right: 5vw;
+  bottom: 7vw;
+  animation-duration: 9s;
+}
+
+@keyframes bounce {
+  to {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*Section 4*/
+
+@keyframes laptop {
+  from {
+    transform: rotate(8deg) translateY(-30px) translateX(40px);
+  }
+
+  to {
+    transform: rotate(8deg) translateX(10px) translateX(40px);
+  }
+}
+
+/*Random*/
+
+@keyframes triangle {
+  from {
+    transform: rotate(360deg) translateY(-30px);
+  }
+
+  to {
+    transform: rotate(360deg) translateX(10px);
+  }
+}
+
+@keyframes triangle2 {
+  from {
+    transform: rotate(0deg) translateY(-10px);
+  }
+
+  to {
+    transform: rotate(180deg) translateX(10px);
+  }
+}
+
+@keyframes circle {
+  from {
+    transform: scale(0) translateY(-30px);
+  }
+
+  to {
+    transform: scale(1) translateX(10px);
+  }
+}
+
+@keyframes circle2 {
+  from {
+    transform: scale(0) translateZ(-30px);
+  }
+
+  to {
+    transform: scale(1) translateZ(10px);
+  }
+}
