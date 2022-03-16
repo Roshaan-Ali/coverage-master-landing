@@ -1,4 +1,4 @@
 {
-    "baseUrl":"https://ed68-110-93-244-255.ngrok.io",
-    "frontEndBaseUrl":"https://coverage-master-user-demo.surge.sh"
+    "baseUrl":"http://20.203.45.189:3000",
+    "frontEndBaseUrl":"http://20.203.45.189/coverage-dashboard/"
 }
